@@ -1,0 +1,82 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #ffff;
+  background-size: cover;
+  padding: 30px;
+  width: 70vw;
+  border-radius: 10px;
+}
+
+.top {
+  border-bottom: 1px solid #b5b7c4;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 25vh;
+  width: 20vw;
+}
+
+label {
+  color: #b5b7c4;
+  font-size: 13px;
+  cursor: pointer;
+}
+input {
+  height: 18%;
+  width: 80%;
+  cursor: pointer;
+}
+.addBtn {
+  height: 20px;
+  width: 4vw;
+  background-color: #8b5cf6;
+  color: #ffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.apImg {
+  height: 50%;
+  width: 40%;
+}
+
+.notActive {
+  background-color: #ffff;
+  border-radius: 5px;
+  border: 1px solid #b5b7c4;
+  color: #b5b7c4;
+  cursor: pointer;
+}
+.active {
+  background-color: #9796f0;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.bottomNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: flex-start;
+  padding: 0px;
+}

@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.appointment {
+  background-size: cover;
+  min-width: 15vw;
+  padding: 5px;
+  padding-left: 10px;
+  border: 1px solid #b5b7c4;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+h3 {
+  font-size: 13px;
+}
+p {
+  font-size: 10px;
+}
+li {
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  background-color: #fff;
+  border: none;
+}
